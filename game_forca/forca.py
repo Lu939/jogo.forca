@@ -22,6 +22,7 @@ while tentativas <= 6:
         vida_morte = str(input('Qual é o nome no time?')).strip().upper()
         if vida_morte == sorteada:
             print('PARABÉNS!!! VOCÊ VENCEU!!')
+            break
         else:
             print(f'PERDEU o time era {sorteada}')
             break
